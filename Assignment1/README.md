@@ -5,7 +5,7 @@ This project implements a **LangChain-based pipeline** that takes a company name
 
 ---
 
-## 🚀 Features
+## Features
 
 - Accepts company name as input.
 - Extracts stock ticker (e.g., MSFT for Microsoft).
@@ -15,7 +15,7 @@ This project implements a **LangChain-based pipeline** that takes a company name
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.10+
 - LangChain
@@ -25,7 +25,7 @@ This project implements a **LangChain-based pipeline** that takes a company name
 
 ---
 
-## 🧪 Setup Instructions
+## Setup Instructions
 
 1. **Clone or open notebook in Google Colab**
 
@@ -52,7 +52,7 @@ os.environ["OPENAI_API_VERSION"] = "2024-02-15-preview"
 
 ---
 
-## 📌 Usage
+## Usage
 
 1. Run the notebook step-by-step.
 2. Enter the company name (e.g., `Microsoft Corporation`) when prompted.
@@ -64,7 +64,7 @@ os.environ["OPENAI_API_VERSION"] = "2024-02-15-preview"
 
 ---
 
-## 📤 Sample Output (Structure)
+## Sample Output (Structure)
 
 ```json
 {
@@ -83,7 +83,7 @@ os.environ["OPENAI_API_VERSION"] = "2024-02-15-preview"
 
 ---
 
-## ✅ Completed Steps (in this version)
+## Completed Steps (in this version)
 
 - [x] Step 1: Accept company name
 - [x] Step 2: Extract stock code
@@ -93,7 +93,7 @@ os.environ["OPENAI_API_VERSION"] = "2024-02-15-preview"
 
 ---
 
-## 📎 Notes
+## Notes
 
 - Make sure your Azure deployment supports GPT-4o or GPT-4o-mini.
 - If no news appears, try using a well-known stock ticker (like `AAPL`, `MSFT`, `GOOGL`).
